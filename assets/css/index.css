@@ -1,8 +1,17 @@
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --background-color: #f5f5f5;
-    --text-color: #333333;
+  --green-primary: #22C55E;
+  --green-dark: #16A34A;
+  --green-light: #86EFAC;
+  --green-bg: #DCFCE7;
+
+  --text-primary: #111827;
+  --text-secondary: #4B5563;
+
+  --border: #E5E7EB;
+  --background: #F9FAFB;
+
+  --accent-yellow: #FACC15;
+  --accent-blue: #38BDF8;
 }
 
 * {
@@ -13,6 +22,6 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
+    background-color: var(--background);
+    color: var(--text-primary);
 }
