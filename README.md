@@ -1,4 +1,4 @@
-# meetup
+# KidSlot
 A simple booking system for daycare providers to manage parents and schedules without WhatsApp chaos.
 
 ## User Personas
