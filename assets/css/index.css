@@ -315,6 +315,10 @@ body {
     }
 }
 
+.footer-wrapper {
+    height: min-content;
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 1000px;

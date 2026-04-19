@@ -1,4 +1,4 @@
-const INCLUDES_BASE_PATH = 'http://localhost:5500/public/includes';
+const INCLUDES_BASE_PATH = 'http://localhost:5500/includes';
 
 function stringToHTML (text) {
 	let parser = new DOMParser();
@@ -24,5 +24,21 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (header && headerWrapper) {
         headerWrapper.innerHTML = ''; // Clear existing content
         headerWrapper.appendChild(header);
+    }
+
+    // Load call to action content
+    const callToAction = await loadInclude('calltoaction');
+    const callToActionWrapper = document.querySelector('.cta-wrapper');
+    if (callToAction && callToActionWrapper) {
+        callToActionWrapper.innerHTML = ''; // Clear existing content
+        callToActionWrapper.appendChild(callToAction);
+    }
+
+    // Load footer content
+    const footer = await loadInclude('footer');
+    const footerWrapper = document.querySelector('.footer-wrapper');
+    if (footer && footerWrapper) {
+        footerWrapper.innerHTML = ''; // Clear existing content
+        footerWrapper.appendChild(footer);
     }
 });
