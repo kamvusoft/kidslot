@@ -22,6 +22,10 @@
     flex-grow: 1;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 .p-1 {
     padding: 0.25rem;
 }
@@ -99,13 +103,29 @@
     padding-bottom: 8rem!important;
 }
 
+.pb-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+.pb-3 {
+    padding-bottom: 0.75rem!important;
+}
+
 .pb-4 {
     padding-bottom: 1rem!important;
+}
+
+.m-0 {
+    margin: 0!important;
 }
 
 .my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
 }
 
 .mt-20 {
@@ -119,6 +139,11 @@
 
 .text-small {
     font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.text-medium {
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -140,10 +165,18 @@
     background-color: #fff;
 }
 
+.gap-2 {
+    gap: 0.5rem;
+}
+
 .gap-5 {
     gap: 1.25rem;
 }
 
 .text-start {
     text-align: start;
+}
+
+.hide {
+    display: none!important;
 }

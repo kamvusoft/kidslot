@@ -1,0 +1,261 @@
+[
+    {
+        "name": "Little Explorers Childcare",
+        "description": "A play-based learning daycare focused on early childhood development and social skills.",
+        "address": {
+            "city": "Toronto",
+            "province": "Ontario"
+        },
+        "programs": [
+            "Infant",
+            "Toddler",
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare1/400/300"
+    },
+    {
+        "name": "Bright Futures Daycare",
+        "description": "Provides a nurturing environment with a structured curriculum to prepare children for school.",
+        "address": {
+            "city": "Vancouver",
+            "province": "British Columbia"
+        },
+        "programs": [
+            "Daycare",
+            "Pre-Kindergarden",
+            "After School"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare2/400/300"
+    },
+    {
+        "name": "Happy Kids Learning Center",
+        "description": "Focuses on creative learning, incorporating arts, music, and outdoor play.",
+        "address": {
+            "city": "Calgary",
+            "province": "Alberta"
+        },
+        "programs": [
+            "Infant",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare3/400/300"
+    },
+    {
+        "name": "Les Petits Génies",
+        "description": "A bilingual daycare promoting language development and cultural diversity.",
+        "address": {
+            "city": "Montreal",
+            "province": "Quebec"
+        },
+        "programs": [
+            "Daycare",
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare4/400/300"
+    },
+    {
+        "name": "East Coast Kids Care",
+        "description": "Community-focused daycare offering flexible hours and family support services.",
+        "address": {
+            "city": "Halifax",
+            "province": "Nova Scotia"
+        },
+        "programs": [
+            "Daycare",
+            "After School"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare5/400/300"
+    },
+    {
+        "name": "Prairie Sunshine Daycare",
+        "description": "Encourages outdoor play and exploration in a safe, caring environment.",
+        "address": {
+            "city": "Winnipeg",
+            "province": "Manitoba"
+        },
+        "programs": [
+            "Infant",
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare6/400/300"
+    },
+    {
+        "name": "Tiny Treasures Childcare",
+        "description": "A cozy daycare focused on individualized attention and emotional development.",
+        "address": {
+            "city": "Ottawa",
+            "province": "Ontario"
+        },
+        "programs": [
+            "Infant",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare7/400/300"
+    },
+    {
+        "name": "Rainbow Kids Academy",
+        "description": "Inclusive daycare celebrating diversity and creativity through structured play.",
+        "address": {
+            "city": "Edmonton",
+            "province": "Alberta"
+        },
+        "programs": [
+            "Daycare",
+            "After School"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare8/400/300"
+    },
+    {
+        "name": "West Coast Early Learning",
+        "description": "Modern daycare center with a focus on early STEM education.",
+        "address": {
+            "city": "Victoria",
+            "province": "British Columbia"
+        },
+        "programs": [
+            "Preschool",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare9/400/300"
+    },
+    {
+        "name": "Northern Lights Childcare",
+        "description": "Provides a warm and engaging environment inspired by northern communities.",
+        "address": {
+            "city": "Whitehorse",
+            "province": "Yukon"
+        },
+        "programs": [
+            "Daycare"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare10/400/300"
+    },
+    {
+        "name": "Maple Leaf Daycare",
+        "description": "Offers a balanced curriculum combining academics and play.",
+        "address": {
+            "city": "Mississauga",
+            "province": "Ontario"
+        },
+        "programs": [
+            "Preschool",
+            "Pre-Kindergarden",
+            "After School"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare11/400/300"
+    },
+    {
+        "name": "Little Sprouts Learning Hub",
+        "description": "Focuses on early literacy and numeracy skills through engaging activities.",
+        "address": {
+            "city": "Regina",
+            "province": "Saskatchewan"
+        },
+        "programs": [
+            "Toddler",
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare12/400/300"
+    },
+    {
+        "name": "Seaside Kids Care",
+        "description": "Offers ocean-inspired learning experiences and outdoor exploration.",
+        "address": {
+            "city": "St. John's",
+            "province": "Newfoundland and Labrador"
+        },
+        "programs": [
+            "Daycare"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare13/400/300"
+    },
+    {
+        "name": "Urban Tots Daycare",
+        "description": "Convenient downtown daycare with extended hours for working parents.",
+        "address": {
+            "city": "Toronto",
+            "province": "Ontario"
+        },
+        "programs": [
+            "Daycare",
+            "Infant",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare14/400/300"
+    },
+    {
+        "name": "Creative Minds Childcare",
+        "description": "Encourages innovation and imagination through project-based learning.",
+        "address": {
+            "city": "Quebec City",
+            "province": "Quebec"
+        },
+        "programs": [
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare15/400/300"
+    },
+    {
+        "name": "Little Scholars Academy",
+        "description": "Prepares children for academic success with structured early education.",
+        "address": {
+            "city": "Burnaby",
+            "province": "British Columbia"
+        },
+        "programs": [
+            "Pre-Kindergarden"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare16/400/300"
+    },
+    {
+        "name": "Happy Trails Daycare",
+        "description": "Nature-focused daycare with daily outdoor adventures.",
+        "address": {
+            "city": "Kelowna",
+            "province": "British Columbia"
+        },
+        "programs": [
+            "Preschool"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare17/400/300"
+    },
+    {
+        "name": "Sunshine Corner Childcare",
+        "description": "Bright and cheerful daycare emphasizing social development and teamwork.",
+        "address": {
+            "city": "Hamilton",
+            "province": "Ontario"
+        },
+        "programs": [
+            "Infant",
+            "After School"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare18/400/300"
+    },
+    {
+        "name": "Arctic Star Daycare",
+        "description": "Supports early childhood development in northern communities.",
+        "address": {
+            "city": "Iqaluit",
+            "province": "Nunavut"
+        },
+        "programs": [
+            "Daycare",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare19/400/300"
+    },
+    {
+        "name": "Little Steps Learning Center",
+        "description": "Focuses on milestone-based development for infants and toddlers.",
+        "address": {
+            "city": "Surrey",
+            "province": "British Columbia"
+        },
+        "programs": [
+            "Infant",
+            "Toddler"
+        ],
+        "photoUrl": "https://picsum.photos/seed/daycare20/400/300"
+    }
+]

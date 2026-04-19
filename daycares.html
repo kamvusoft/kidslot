@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSlot | Daycares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css//utilities.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/daycares.css">
+</head>
+<body>
+    <header class="w-full">
+        <!-- Header content will be loaded here -->
+    </header>
+    <main class="w-full">
+        <section class="container">
+            <h1 class="title mt-20">
+                <p class="">Browse our daycare providers partners</p>
+            </h1>
+            <div class="subtitle">
+                <p class="text-secondary">They are all proud of using KidSlot to manage bookings and daily capacity.</p>
+            </div>
+            <form onsubmit="handleFilterProviders(event)" class="search-form mt-10">
+                <div class="search-box form-group m-0">
+                    <input type="search" name="filter" id="filter" placeholder="Name, Description, Address">
+                    <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <button type="submit" class="btn btn-secondary">Go</button>
+            </form>
+            <div class="d-flex align-items-center justify-content-center gap-2 pt-10 wrap">
+                <a href="#" class="btn program-item active" onclick="toggleProgram(event)" data-id="All">All</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Infant">Infant</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Toddler">Toddler</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Preschool">Preschool</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Daycare">Daycare</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Pre-Kindergarden">Pre-Kindergarden</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="After School">After School</a>
+                <a href="#" class="btn program-item" onclick="toggleProgram(event)" data-id="Before School">Before School</a>
+            </div>
+            <div class="mt-10">
+                <div class="no-data hide">
+                    <img src="assets/images/no_data.png" alt="No data illustration">
+                    <p class="text-secondary">
+                        No daycare providers were found. Please refine your search criteria to see more results.
+                    </p>
+                </div>
+                <div class="providers-grid">
+                    <!-- Providers grid content will be loaded here -->
+                </div>
+            </div>
+        </section>
+        <div class="w-full cta-wrapper">
+            <!-- Call to action content will be loaded here -->
+        </div>
+        <div class="footer-wrapper bg-inverted">
+            <!-- Footer content will be loaded here -->
+        </div>
+    </main>
+
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/providers.js"></script>
+</body>
+</html>
