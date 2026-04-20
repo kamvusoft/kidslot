@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidSlot | Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css//utilities.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <header class="container no-robot">
+        <div class="header-container">
+            <a href="/index.html">
+                <img src="assets/images/kidslot_logo.png" alt="Logo" class="logo">
+            </a>
+        </div>
+    </header>
+    <main class="w-full container">
+        <div class="d-flex justify-content-center mt-20 gap-5">
+            <div role="img" aria-label="Online profile" class="online-profile">
+                <img src="assets/images/online_profile.png" alt="Online profile" >
+            </div>
+            <section class="signup-form grow-1 my-6">
+                <h1 class="title">
+                    <p class="text-start m-0">Let's set up your account</p>
+                </h1>
+                <div class="subtitle m-0">
+                    <p class="text-secondary text-start">You are just a few clicks away from getting started!</p>
+                </div>
+                <form action="" class="w-full pt-10">
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="form-group flex-1">
+                            <label for="first_name">
+                                First Name <span class="text-danger">*</span>
+                            </label>
+                            <input type="text" id="first_name" name="first_name" placeholder="First name" required/>
+                        </div>
+                        <div class="form-group flex-1">
+                            <label for="last_name">
+                                Last Name
+                            </label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Last name"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            Email <span class="text-danger">*</span>
+                        </label>
+                        <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="business_name">
+                            Business Name <span class="text-danger">*</span>
+                        </label>
+                        <input type="text" id="business_name" name="business_name" placeholder="Business name" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="programs">
+                            Programs <span class="text-danger">*</span>
+                        </label>
+                        <select name="programs" id="programs" required multiple>
+                            <option value="" disabled selected>Which programs are available?</option>
+                            <option value="infant">Infant</option>
+                            <option value="toddler">Toddler</option>
+                            <option value="preschool">Preschool</option>
+                            <option value="daycare">Daycare</option>
+                            <option value="pre-kindergarden">Pre-Kindergarden</option>
+                            <option value="after-school">After School</option>
+                            <option value="before-school">Before School</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">
+                            Address
+                        </label>
+                        <input type="text" name="address" id="address" placeholder="Address"/> 
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Get started
+                    </button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <script src="assets/js/common.js"></script>
+</body>
+</html>

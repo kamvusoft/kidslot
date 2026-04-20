@@ -36,7 +36,9 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 0.5rem;
+    border: 1px solid var(--green-light);
     transition: all 0.3s linear;
+    cursor: pointer;
 }
 
 .btn.btn-navigation {
@@ -56,7 +58,6 @@ body {
 
 .btn.btn-secondary {
     background-color: transparent;
-    border: 1px solid var(--green-light);
     color: var(--green-dark);
     cursor: pointer;
 }
@@ -386,6 +387,10 @@ body {
         font-size: 1.825rem;
         padding: 0 0 1.25rem 0;
     }
+
+    .online-profile img {
+        max-width: 400px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -398,6 +403,10 @@ body {
         flex-shrink: 0;
         max-width: 340px;
     }
+
+    .online-profile img {
+        max-width: 200px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -409,6 +418,10 @@ body {
     .hero .headline {
         flex-shrink: 0;
         max-width: 75%;
+    }
+
+    .online-profile {
+        display: none;
     }
 }
 
