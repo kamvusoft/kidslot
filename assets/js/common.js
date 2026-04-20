@@ -1,4 +1,4 @@
-const INCLUDES_BASE_PATH = 'http://localhost:5500/includes';
+const INCLUDES_BASE_PATH = 'https://kamvusoft.github.io/kidslot/includes';
 
 function stringToHTML (text) {
 	let parser = new DOMParser();

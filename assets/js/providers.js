@@ -49,7 +49,7 @@ Provider.prototype.createProviderCard = function() {
 }
 
 function loadProvidersFromAPI(onProvidersLoaded) {
-    fetch('http://localhost:5500/assets/data/providers.json')
+    fetch('https://kamvusoft.github.io/kidslot/assets/data/providers.json')
         .then(response => response.json())
         .then(providersData => {
             const providers = providersData.map(provider => new Provider(
