@@ -159,7 +159,7 @@ function toggleProgram(event) {
 }
 
 function init() {
-    document.addEventListener('DOMContentLoaded', function(){
+    document.addEventListener('DOMContentLoaded', async function(){
         handleDocumentLoaded();
     });
 }

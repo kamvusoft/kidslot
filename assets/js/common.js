@@ -20,7 +20,7 @@ async function loadInclude(name) {
 document.addEventListener('DOMContentLoaded', async () => {
     // Load header content
     const header = await loadInclude('header');
-    const headerWrapper = document.querySelector('header');
+    const headerWrapper = document.querySelector('header:not(.no-robot)');
     if (header && headerWrapper) {
         headerWrapper.innerHTML = ''; // Clear existing content
         headerWrapper.appendChild(header);
